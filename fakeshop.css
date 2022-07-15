@@ -29,6 +29,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   /* inherit border-box on all elements in the universe and before and after
    */
