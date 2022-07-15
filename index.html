@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fake Shop</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Redressed&amp;display=swap" rel="stylesheet">
     <link href = "fakeshop.css" rel = "stylesheet" >
     
@@ -26,7 +27,7 @@
         
      </ul>
     </nav>
-    <div class = "container">
+    <div class = "container" data-aos="fade-in">
         <div class = "item-1 thumbnail" id = "men-clothing">
             <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
             <div class = "img-wrapper">
@@ -278,5 +279,12 @@
             
         </div>
     </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 300,
+        duration: 1000
+    });
+  </script>
 </body>
 </html>
